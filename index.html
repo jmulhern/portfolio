@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Hi, I'm John!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/504b3dd142.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mx-md-2 mx-lg-4"><i id="cat" class="fa-solid fa-cat"></i></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="burger" class="fa-solid fa-burger"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#mission-section">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills-section">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Hero section -->
+<section id="hero-section">
+    <div class="px-4 py-5 text-center bg">
+        <div class="mt-4 px-0">
+            <img  src="img/me.png" class="w-25 my-4 rounded-circle img-fluid" alt="picture of cool guy">
+        </div>
+
+        <h1 class="display-5 fw-bold text-white">John Mulhern</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 fst-italic text-white">I like cats and writing code!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Mission/Meet-me section -->
+<section id="mission-section">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 fw-semibold text-center">About Me</h1>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 col-sm-4">
+                <div class="w-auto">
+                    <img class="text-center img-fluid rounded-3" src="img/clarice.jpg" alt="cool cat">
+                </div>
+            </div>
+            <div class="col-12 col-sm-8">
+                <p>Meet John, a talented software engineer from Arizona with a deep passion for cats that extends beyond his coding skills.
+                    John's journey in the world of software development began as a curious teenager, tinkering with his first line of code.
+                    His fascination with technology grew alongside his affection for feline companions. John's work at a leading tech company
+                    is not just a job; it's a platform for him to make a difference while pursuing his two great loves: programming and cats.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1 class="display-6 fw-semibold text-center">My Work</h1>
+        <div id="myWorkCarouselCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myWorkCarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myWorkCarouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myWorkCarouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slideshow-slide-1 bd-placeholder-img bd-placeholder-img-lg d-block w-100"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Landing Page</h5>
+                        <p>Designed and built a landing page for a hotel.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slideshow-slide-2 bd-placeholder-img bd-placeholder-img-lg d-block w-100" ></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Suns Website</h5>
+                        <p>Created a website that will give up-to-date scores for the Suns</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slideshow-slide-3 bd-placeholder-img bd-placeholder-img-lg d-block w-100" ></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Login Screen</h5>
+                        <p>Worked with <code class="bg-black">&lt;form /&gt;</code> element to gather user inputs</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myWorkCarouselCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myWorkCarouselCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Skills section -->
+<section id="skills-section">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 fw-semibold text-center">Skills</h1>
+            </div>
+        </div>
+        <div class="row mt-4 text-center">
+            <div class="col-12 col-sm-6 col-md-3">
+                <span class="display-4 fw-semibold text-muted"><i class="fa-brands fa-golang"></i></span>
+                <p class="small text-muted">I've written many CLIs, webservers, SDKs and <code>err != nil</code></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <span class="display-4 fw-semibold text-muted"><i class="fa-brands fa-react"></i></span>
+                <p class="small text-muted">I've created a couple websites that use React</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <span class="display-4 fw-semibold text-muted"><i class="fa-brands fa-aws"></i></span>
+                <p class="small text-muted">I've deployed infrastructure as code into AWS</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <span class="display-4 fw-semibold text-muted"><i class="fa-solid fa-hammer"></i></span>
+                <p class="small text-muted">I've written many CI/CD jobs, tasks and other things</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact-section">
+    <div class="container py-4 mb-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 fw-semibold text-center">Contact</h1>
+            </div>
+        </div>
+        <div class="row mt-4 text-center">
+            <div class="col-12 col-md-4">
+                <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://github.com/jmulhern" target="_blank">
+                    <span class="display-6 fw-semibold icon-link-hover"><i class="fa-brands fa-github"></i></span>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.linkedin.com/in/johnmmulhern/" target="_blank">
+                    <span class="display-6 fw-semibold icon-link-hover"><i class="fa-brands fa-linkedin"></i></span>
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="mailto:jmm@hey.com" target="_blank">
+                    <span class="display-6 fw-semibold icon-link-hover"><i class="fa-regular fa-envelope"></i></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer section -->
+<section id="footer-section" class="py-2 small text-center bg-dark text-white fixed-bottom">
+    <span>&copy; 2023 Mulhern Enterprises</span>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

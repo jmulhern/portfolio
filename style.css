@@ -1,0 +1,38 @@
+body{
+    background-color: #fffcf2;
+}
+.bg {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1575408264798-b50b252663e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3306&q=80");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideshow-slide-1 {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("img/hotel-milestone.png");
+    min-height: 50vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideshow-slide-2 {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("img/suns.png");
+    min-height: 50vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideshow-slide-3 {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("img/eco-cleaners.png");
+    min-height: 50vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
